@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1184cf48-c731-4b71-b89b-b246cefc8564" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task02/lambdas/hello_world-test/deployment_resources.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task02/lambdas/hello_world-test/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task02/lambdas/hello_world-test/lambda_config.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task02/lambdas/hello_world-test/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task02/lambdas/hello_world-test/package.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
