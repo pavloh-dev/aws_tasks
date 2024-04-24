@@ -1,6 +1,6 @@
 from commons.log_helper import get_logger
 from commons.abstract_lambda import AbstractLambda
-import json 
+import json
 
 _LOG = get_logger('HelloWorld-handler')
 
@@ -14,14 +14,14 @@ class HelloWorld(AbstractLambda):
         """
         Explain incoming event here
         """
-        response = {
+        
+        return {
             "statusCode": 200,
             "body": json.dumps({"statusCode": 200, "message": "Hello from Lambda!"}),
             "headers": {
                 "Content-Type": "application/json"
             }
         }
-        return response
     
 
 HANDLER = HelloWorld()
