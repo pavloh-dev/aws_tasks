@@ -16,8 +16,7 @@ class HelloWorld(AbstractLambda):
         """
         
         return {
-            'statusCode': 200,
-            'message': 'Hello from Lambda'
+            json.dumps({"statusCode": 200, "message": "Hello from Lambda"})
         }
     
 
@@ -25,4 +24,4 @@ HANDLER = HelloWorld()
 
 
 def lambda_handler(event, context):
-    return HANDLER.lambda_handler(event=event, context=context)
+    return {'statusCode': 200, 'message': 'Hello from Lambda'}
