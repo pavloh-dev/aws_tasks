@@ -15,10 +15,7 @@ class HelloWorld(AbstractLambda):
         Explain incoming event here
         """
         
-        return {
-            json.dumps({"statusCode": 200, "message": "Hello from Lambda"})
-        }
-    
+        return {'statusCode': 200, 'message': 'Hello from Lambda'}
 
 HANDLER = HelloWorld()
 
